@@ -36,13 +36,18 @@ If trained, the agent's weights are saved in `./train`. Otherwise, videos of the
 
 Below are the curves of the scores obtained throughout the training phase by the DQN agent as well as a random agent used as a baseline:
 
-<div style="text-align:center"><img src="./assets/scores.jpg"/></div>
+<p align='center'>
+  <img src="./assets/scores.jpg"/>
+</p>
 
 The DQN agent has played 100 episodes, 10000 timesteps each, and it has been able to improve its decision-making process as the training progresses. In fact, it starts by randomly selecting actions, waiting for the replay buffer to be sufficiently full to start the training. After several episodes of playing, the agent starts showing learning improvements and rather satisfactory results by the end of the training. This is due to the fact that its policy becomes progressively less random, as the update rule encourages it to exploit actions with higher rewards. 
 
 Here is a game where the agent is playing after being trained: 
 
-<div style="text-align:center"><img src="./assets/game.gif"/></div>
+
+<p align='center'>
+  <img src="./assets/game.gif"/>
+</p>
 
 It has done a pretty good job overall. Nevertheless, it has to be trained more and perhaps get its policy network tuned so that it can get a higher score.
 
@@ -59,3 +64,4 @@ It has done a pretty good job overall. Nevertheless, it has to be trained more a
 
 [How RL agents learn to play Atari games](https://www.youtube.com/watch?v=rbsqaJwpu6A&feature=youtu.be&t=9m55s)
 
+[Human-level control through deep reinforcement learning](https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf)
