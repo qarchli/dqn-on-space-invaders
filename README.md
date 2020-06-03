@@ -24,7 +24,7 @@ pip install atari-py
 ```
 ### Windows users
 
-Start by running the same as Linux users, if you have some errors popping up then detailed instructions to install Atari environments in Windows platforms are given [here](https://github.com/Kojoley/atari-py).    
+Start by running the same command as Linux users, if you have some errors popping up then detailed instructions to install Atari environments in Windows platforms are given [here](https://github.com/Kojoley/atari-py).    
 
 ## Usage
 
