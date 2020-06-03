@@ -1,0 +1,6 @@
+torch == 1.4.0
+matplotlib
+pickle
+numpy
+pandas
+gym
