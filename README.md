@@ -36,13 +36,13 @@ If trained, the agent's weights are saved in `./train`. Otherwise, videos of the
 
 Below are the curves of the scores obtained throughout the training phase by the DQN agent as well as a random agent used as a baseline:
 
-<img src="./assets/scores.jpg"/> 
+<img text-align="center" src="./assets/scores.jpg"/> 
 
 The DQN agent has played 100 episodes, 10000 timesteps each, and it has been able to improve its decision-making process as the training progresses. In fact, it starts by randomly selecting actions, waiting for the replay buffer to be sufficiently full to start the training. After several episodes of playing, the agent starts showing learning improvements and rather satisfactory results by the end of the training. This is due to the fact that its policy becomes progressively less random, as the update rule encourages it to exploit actions with higher rewards. 
 
 Here is a game where the agent is playing after being trained: 
 
-<img src="./assets/game.gif"/> 
+<img text-align="center" src="./assets/game.gif"/> 
 
 It has done a pretty good job overall. Nevertheless, it has to be trained more and perhaps get its policy network tuned so that it can get a higher score.
 
