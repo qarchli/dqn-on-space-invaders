@@ -4,7 +4,7 @@
 
 This is a PyTorch implementation of a Deep Q-Network agent trained to play the Atari 2600 game of Space Invaders. The related paper is the following: [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602v1.pdf), published in 2014 by Google Deepmind. 
 
-This repository also corresponds to the source code for this post (LINK TO BE ADDED LATER) I have written on the subject.
+This repository also corresponds to the source code for this [post](https://qarchli.github.io/2020-06-04-dqn-to-play-space-invaders/) I have written on the subject.
 
 ## Dependencies
 
